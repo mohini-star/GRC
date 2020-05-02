@@ -8,7 +8,7 @@ $(document).ready(function () {
 				$.ajax({
 					type: "GET",
 					dataType: "json",
-					url: 'http://grievanceapi.herokuapp.com/api/profile/?format=json',
+					url: 'https://grievanceapi.herokuapp.com/api/profile/?format=json',
 
 					success: function (data) {
 						$.each(data, function (index, value) {
@@ -38,7 +38,7 @@ $(document).ready(function () {
 				//alert("---------Hii---------"+Username);
 				$.ajax({
 					type: 'POST',
-					url: 'http://grievanceapi.herokuapp.com/api/login/',
+					url: 'https://grievanceapi.herokuapp.com/api/login/',
 					contentType: 'application/json',
 
 					//username as assigned in bakend string
