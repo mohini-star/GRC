@@ -5,7 +5,7 @@ $(document).ready(function(){
 	var dep=localStorage.getItem('dep');
 	var pageinfo1='';
 	var pageinfo2='';
-	var urlfinal="https://grievanceapi.herokuapp.com/api/complaint/?format=json";
+	var urlfinal="http://grievanceapi.herokuapp.com/api/complaint/?format=json";
 	filter(urlfinal);
 	$( "#panelcon" ).delegate( ".card", "click", function() {
   		var u=$(this).attr("id");
