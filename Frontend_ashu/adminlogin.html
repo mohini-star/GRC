@@ -32,7 +32,7 @@
 				$.ajax({
 					type: "GET",
 					dataType: "json",
-					url: 'http://grievanceapi.herokuapp.com/api/profile/?format=json',
+					url: 'https://grievanceapi.herokuapp.com/api/profile/?format=json',
 
 					success: function (data) {
 						$.each(data, function (index, value) {
@@ -65,7 +65,7 @@
 
 				$.ajax({
 					type: 'POST',
-					url: 'http://grievanceapi.herokuapp.com/api/login/',
+					url: 'https://grievanceapi.herokuapp.com/api/login/',
 					contentType: 'application/json',
 
 					//username as assigned in bakend string
@@ -116,7 +116,7 @@
 			<!-- Icon -->
 			<div class="fadeIn first">
 			
-				<img src="../Frontend_UI/img/logo.jpeg" id="icon" alt="User Icon" height="175" />
+				<img src="./img/logo.jpeg" id="icon" alt="User Icon" height="175" />
 				<h6>Admin Login</h6>
 			</div>
 
@@ -130,7 +130,7 @@
 			<!-- Remind Passowrd -->
 			<div id="formFooter">
 				<div id="m" style="color: red;"></div>
-				<a href="http://grievanceapi.herokuapp.com/password-reset" style="text-decoration: none;">Forgot Password?</a>
+				<a href="https://grievanceapi.herokuapp.com/password-reset" style="text-decoration: none;">Forgot Password?</a>
 			</div>
 			
 
