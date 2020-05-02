@@ -36,7 +36,7 @@ $(document).ready(function(){
 							
 							type: "POST",
 							dataType: "json",
-							url: "http://grievanceapi.herokuapp.com/api/profile/",
+							url: "https://grievanceapi.herokuapp.com/api/profile/",
 							data: {
 					password: $password.val(),
 					first_name: $first_name.val(),
