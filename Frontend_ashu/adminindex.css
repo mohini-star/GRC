@@ -7,9 +7,6 @@
 	overflow:hidden;
 	height: 38px;
 }
-nav{
-	background-color:#0086e6;
-}
 .navdiv a:hover{
 	text-decoration: none;
 }
