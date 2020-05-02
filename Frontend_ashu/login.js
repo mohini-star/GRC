@@ -1,6 +1,7 @@
 $(document).ready(function () {
 
 			$('#loginform').submit(function (e) {
+				console.log("its working");
 				e.preventDefault();
 				var email = document.getElementById("us1").value;
 				var pass = document.getElementById("pass").value;
