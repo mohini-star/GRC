@@ -12,7 +12,7 @@ $(document).ready(function(){
 							
 							type: "POST",
 							dataType: "json",
-							url: "http://grievanceapi.herokuapp.com/api/complaint/",
+							url: "https://grievanceapi.herokuapp.com/api/complaint/",
 							data: {category: $category.val(),
 								sub_category: $sub_category.val(),
 								subject: $subject.val(),
