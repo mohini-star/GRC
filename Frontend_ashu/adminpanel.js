@@ -9,7 +9,7 @@ $(document).ready(function(){
 	filter(urlfinal);
 	$( "#panelcon" ).delegate( ".card", "click", function() {
   		var u=$(this).attr("id");
-		u=u.replace("http","https");
+		
 
   		$.ajax({
 							
